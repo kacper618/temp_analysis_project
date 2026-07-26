@@ -1,10 +1,19 @@
-O PROJEKCIE
+## O projekcie
 
-Projekt polega na czyszczeniu wygenerowanej losowo bazy danych oraz na stworzeniu wykresów na jej podstawie.
+Projekt polega na wygenerowaniu, wyczyszczeniu oraz analizie syntetycznej bazy danych pomiarowych.
 
-Napisany w c++ kod generuje plik csv z 100000 pomiarami, które następnie są analizowane przy użyciu pythona i jego wybranych bibliotek.
+Składa się z dwóch części:
+* **C++**: Skrypt (`main.cpp`) generujący 100 000 losowych pomiarów IoT do pliku `.csv`.
+* **Python**: Notatnik Jupyter służący do czyszczenia anomalii oraz statystycznej wizualizacji danych.
 
 ## Jak uruchomić projekt?
 
-# 1: Skompiluj plik main.cpp przy użyciu komendy: g++ -o generator main.cpp
-# 2: Zainstaluj wymagane biblioteki do Pythona przy użyciu komendy: pip install -r requirements.txt
+**1. Generowanie danych (C++)**
+Skompiluj kod, a następnie uruchom program, aby wygenerować bazę danych:
+g++ -o generator main.cpp
+.\generator.exe
+
+**2. Analiza danych (Python)**
+Zainstaluj pakiety z pliku requirements i uruchom środowisko analityczne:
+pip install -r requirements.txt
+jupyter notebook
