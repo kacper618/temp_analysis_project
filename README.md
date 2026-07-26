@@ -3,7 +3,7 @@
 Projekt polega na wygenerowaniu, wyczyszczeniu oraz analizie syntetycznej bazy danych pomiarowych.
 
 Składa się z dwóch części:
-* **C++**: Skrypt (`main.cpp`) generujący 100 000 losowych pomiarów IoT do pliku `.csv`.
+* **C++**: Skrypt main.cpp generujący 100 000 losowych pomiarów IoT do pliku .csv.
 * **Python**: Notatnik Jupyter służący do czyszczenia anomalii oraz statystycznej wizualizacji danych.
 
 ## Jak uruchomić projekt?
