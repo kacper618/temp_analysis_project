@@ -10,10 +10,12 @@ Składa się z dwóch części:
 
 **1. Generowanie danych (C++)**
 Skompiluj kod, a następnie uruchom program, aby wygenerować bazę danych:
+
 g++ -o generator main.cpp
 .\generator.exe
 
 **2. Analiza danych (Python)**
 Zainstaluj pakiety z pliku requirements i uruchom środowisko analityczne:
+
 pip install -r requirements.txt
 jupyter notebook
